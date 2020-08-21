@@ -1,0 +1,27 @@
+{
+  "name": "graphQL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaeja-Phil/graphQL-netninja.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaeja-Phil/graphQL-netninja/issues"
+  },
+  "homepage": "https://github.com/Jaeja-Phil/graphQL-netninja#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "nodemon": "^2.0.4"
+  }
+}
